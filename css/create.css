@@ -1,0 +1,242 @@
+/*font-family: 'Mukta Vaani', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'League Script', cursive;*/
+
+/*
+*{
+  border: 2px solid white;
+  padding: 10px;
+  margin: 10px;
+}*/
+
+body{
+  background-color: #696969;
+  /*background-color: #6fc7b3;*/
+  /*background-color: black;*/
+  /*color: white;*/
+ font-family: 'Raleway', sans-serif;
+ margin: 0;
+}
+
+input, textarea{
+    outline: 0;
+}
+
+input:focus, textarea:focus{
+  background: lightgrey;
+}
+
+.contenedor{
+  width: 800px;
+  margin:auto;
+  position: relative;
+}
+
+.background{
+  background-image: url('../images/eye1.png');
+  background-size: cover;
+
+}
+
+.button{
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-family: 'League Script', cursive;
+  font-size: 18px;
+  /*background: linear-gradient(to left, white, black);*/
+  text-decoration: none;
+}
+
+.header{
+  position: relative;
+}
+
+.titulo{
+  font-size: 70px;
+  font-family: 'Mukta Vaani', sans-serif;
+  margin-bottom: 0;
+  margin-top: 70px;
+  color: black;
+}
+
+.titulo span{
+  text-decoration: underline;
+}
+
+.title-a{
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.title-b{
+  font-size: 40px;
+  margin-bottom: 20px;
+  /*padding-left: 200px;*/
+}
+
+
+.guitarras{
+  color: white;
+  margin-bottom: 60px;
+}
+
+.guitarras h2{
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.portada{
+  padding: 20px;
+  height: 500px;
+}
+
+.portada button{
+  margin-bottom: 70px;
+}
+
+.menu{
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.menu a{
+  color: blue;
+  text-decoration: none;
+}
+
+.menu li{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu li:before{
+  content: '¤';
+  font-size: 20px;
+  line-height: 20px;
+  color: purple;
+}
+
+.logotipo{
+  display: inline-block;
+  margin-left: 0;
+}
+
+.guitarra{
+  /*overflow: hidden;*/
+  border: 3px solid white;
+  padding: 10px;
+  margin: 10px 10px 40px 10px;
+  border-radius: 10px;
+}
+
+.guitarra ol{
+  padding: 0;
+}
+
+.derecha{
+  float: right;
+  position: relative;
+  top: -10px;
+}
+
+.izquierda{
+  float: left;
+  position: relative;
+  top: -10px;
+}
+
+.contenedor-guitarra-a{
+  padding-left: 20px;
+}
+.contenedor-guitarra-b{
+  margin-left: 370px;
+  padding-left:20px;
+}
+
+.footer{
+  background-color: black;
+  padding: 50px 10px;
+}
+
+.contacto {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contacto img{
+  display: block;
+}
+
+.contacto strong{
+  display: block;
+}
+
+.contacto a{
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+
+}
+
+.footer .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario{
+  display: flex;
+  width: 400px;
+  color: white;
+}
+
+.col1, .col2{
+    display: flex;
+    flex-direction: column;
+}
+
+.col1{
+  margin-right: 15px;
+}
+
+.col2{
+  align-items: flex-start;
+}
+
+.col2 .button{
+  margin-top: 15px;
+}
+
+table{
+  width: 100%;
+}
+
+th{
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+
+}
+
+ td{
+  padding: 20px;
+  color: white;
+}
+
+table, td, th{
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+.tabla{
+  margin: 50px 0;
+}
